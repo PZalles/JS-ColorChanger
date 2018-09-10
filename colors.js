@@ -9,7 +9,21 @@ function changeColor() {
     // document.body.className = selectedColor;
     document.body.className = this.className;
 }
-
+// btnOrange.addEventListener('click', function () {
+//     document.body.className = "orange";
+// });
+// btnGreen.addEventListener('click', function () {
+//     document.body.className = "green";
+// });
+// btnBlue.addEventListener('click', function () {
+//     document.body.className = "blue";
+// });
+// btnYellow.addEventListener('click', function () {
+//     document.body.className = "yellow";
+// });
+// btnRed.addEventListener('click', function () {
+//     document.body.className = "red";
+// });
 btnOrange.addEventListener('click', changeColor);
 btnGreen.addEventListener('click', changeColor);
 btnBlue.addEventListener('click', changeColor);
